@@ -1,0 +1,122 @@
+body{
+  font-family: 'Abel', sans-serif;
+  font-family: 'Kanit', sans-serif;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav h1{
+  font-family: 'Dancing Script', cursive;
+
+}
+.search input{
+  width: 350px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 8px;
+  margin-bottom: 30px;
+  background: #e0a458;
+  color: aliceblue;
+  font-size: larger;
+}
+.filterList{
+  font-weight: bolder;
+}
+.filterList label{
+  margin-left: 20px;
+}
+.filterList input{
+  margin-left:10px ;
+}
+.display{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.beerCard{
+  margin: 20px;
+  width: 400px;
+  border: 1px ;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #F4ECEC;
+
+}
+.beerCard h2{
+  font-family: 'Dancing Script', cursive;
+
+}
+.beerCard img{
+  width: 100px;
+  height: 350px;
+  margin-top: 10px;
+}
+
+.displayImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ border: 1px ; 
+ border-radius: 20px;
+ background: #e0a458;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-bottom: 30px;
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+.meter {
+  overflow: hidden;
+  width: 40%;
+  width: 90px;
+  height: 10px; 
+  position: relative;
+  margin: 10px 0; 
+  background: rgb(228, 213, 213);
+  border-radius: 25px;
+  padding: 6px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);}
+  .meter  span {
+    display: block;
+    height: 100%;
+    width: 90px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43, 194, 83);
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+      inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+.ebcMeter {
+  overflow: hidden;
+  width: 20px;
+  height: 20px; 
+  position: relative;
+  margin: 10px 0 ; 
+  background: rgb(228, 213, 213);
+  border-radius: 100%;
+  padding: 3px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+.ebcMeter  span {
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 100%;
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
